@@ -1,0 +1,86 @@
+html { height: 100% }
+::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+body{
+  background-color:#ECF2F3; 
+}
+img:hover{
+  cursor: pointer;
+}
+.Register {
+  background: #ffffff;
+  border: 1px solid #42464b;
+  border-radius: 6px;
+  height: 520px;
+  margin: 0px auto 0;
+  width: 300px;
+}
+input[type="password"], input[type="text"], input[type="checkbox"], input[type="number"], input[type="email"], input[type="button"] {
+  background: url('http://i.minus.com/ibhqW9Buanohx2.png') center left no-repeat, linear-gradient(top, #d6d7d7, #dee0e0);
+  border: 1px solid #a1a3a3;
+  border-radius: 4px;
+  box-shadow: 0 1px #fff;
+  box-sizing: border-box;
+  color: #696969;
+  height: 28px;
+  margin: 25px 0 0 29px;
+  padding-left: 37px;
+  transition: box-shadow 0.3s;
+  width: 240px;
+}
+input[type="radio"]{
+  background: url('http://i.minus.com/ibhqW9Buanohx2.png') left no-repeat, linear-gradient(top, #d6d7d7, #dee0e0);
+  border: 1px solid #a1a3a3;
+  border-radius: 4px;
+  box-shadow: 0 1px #fff;
+  box-sizing: border-box;
+  color: #696969;
+  height: 15px;
+  margin: 15px 0 0 12px;
+  padding-left: 37px;
+  transition: box-shadow 0.3s;
+  width: 75px;
+}
+input[type="checkbox"]{
+  background: url('http://i.minus.com/ibhqW9Buanohx2.png') left no-repeat, linear-gradient(top, #d6d7d7, #dee0e0);
+  border: 1px solid #a1a3a3;
+  border-radius: 4px;
+  box-shadow: 0 1px #fff;
+  box-sizing: border-box;
+  color: #696969;
+  height: 15px;
+  margin: 15px 0 0 12px;
+  padding-left: 37px;
+  transition: box-shadow 0.3s;
+  width: 75px;
+}
+input[type="submit"]{
+ /*background : url('http://i.minus.com/ibhqW9Buanohx2.png') center, linear-gradient(top, #d6d7d7, #dee0e0);*/
+  border: 1px solid #a1a3a3;
+  border-radius: 4px;
+  box-shadow: 0 1px #fff;
+  box-sizing: border-box
+  background-color: #52C2D7;
+  height: 30px;
+  margin: 5px 0 0 50px;
+  padding-left: 7px;
+  transition: box-shadow 0.5s;
+  width: 200px;
+}
+input[type="submit"]:active {
+  top:3px;
+  box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #31524d, 0px 5px 3px #999;
+}
+
+.fb{
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid white;
+  display: inline;
+  cursor: pointer;
+}
+.contact{
+  float: right;
+}

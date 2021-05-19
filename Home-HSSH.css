@@ -1,0 +1,124 @@
+body{
+	background-color:#ECF2F3; 
+}
+.faq{
+	float: center;
+	height: 80px;
+	width: 200px;
+	border-radius: 10px;
+	border: 2px solid #000000;
+	background-color: #52C2D7;
+	margin: 20px 50px 20px 560px;
+	text-align: center;
+}
+.logo{
+	display: inline;
+}
+.name{
+	margin: 0px 0px 10px 40px;
+}
+.meme{
+	float: center;
+	margin: 0 0 0 400px; 
+}
+.img1{
+	width: 550vw;
+	height: 500vw; 
+	background-image: url("home2.jpg");
+	background-size: contain;
+
+}
+.imgcenter{
+	height: 400px;
+	width: 600px;
+}
+.part1{
+	width: 100%;
+}
+.profile_but{
+	height: 80px;
+	width: 80px;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0Q_qrm-pQvOglWODzULI2OVJX5sPh0IRjEe3AcNYr2dJzOP-wzA");
+	background-size: cover;
+	border-radius: 10px;
+	border: 2px solid #000000;
+	margin: 20px 10px 20px 30px;
+	float: right;
+}
+.profile_but:hover {
+	height: 85px;
+	width: 85px;
+	cursor: pointer;
+}
+.moodimg{
+	margin: 20px 0px ;
+}
+.moodimg:hover {
+	height: 405px;
+	cursor: pointer;
+}
+.guruji{
+	width: 100%;
+	height: 400px;
+	align-content: center;
+	margin-bottom: 20px;
+
+}
+.fb{
+	height: 40px;
+	width: 40px;
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid white;
+	display: inline;
+	cursor: pointer;
+}
+.faq:hover{
+	cursor: pointer;
+
+}
+.contact{
+	float: right;
+}
+.video1{
+	width: 100%;
+	height: 330px;
+	display: inline-block;
+
+}
+.vid{
+	float: left;
+	display: inline;
+	margin: 10px 50px 10px 20px;
+}
+.helpline{
+	width: 100%;
+}
+.help1{
+	height: 180px;
+	width: 250px;
+	border: 1px solid black;
+	border-radius: 20px;
+	background-color: #52C2D7;
+	display: inline-block;
+	text-align: center;
+	margin: 20px 50px 20px 370px;
+
+}
+.help2{
+	height: 180px;
+	width: 250px;
+	border: 1px solid black;
+	border-radius: 20px;
+	background-color: #52C2D7;
+	text-align: center;
+	margin: 20px 50px 20px 50px;
+	float: center;
+}
+span{
+	font-size: 250%;
+	color: #ffffff;
+	font-weight: 200%;
+	font-family: Goergia;
+
+}

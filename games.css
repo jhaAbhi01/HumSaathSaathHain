@@ -1,0 +1,54 @@
+.games{
+	align-content: center;
+}
+.game1{
+	float: center;
+	margin: 0 0 0 480px; 
+}
+.game2{
+	float: center;
+	margin: 0 0 0 480px; 
+}
+.game3{
+	float: center;
+	margin: 0 0 0 480px; 
+}
+.game4{
+	float: center;
+	margin: 0 0 0 480px; 
+}
+.game5{
+	float: center;
+	margin: 0 0 0 480px; 
+}
+.fb{
+	height: 40px;
+	width: 40px;
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid white;
+	display: inline;
+	cursor: pointer;
+}
+.contact{
+	float: right;
+}
+.g:hover{
+	cursor: pointer;
+}
+.faq:hover{
+	cursor: pointer;
+}
+.faq{
+	float: center;
+	height: 80px;
+	width: 200px;
+	border-radius: 10px;
+	border: 2px solid #000000;
+	background-color: #52C2D7;
+	margin: 20px 50px 20px 560px;
+	text-align: center;
+}
+img:hover{
+  cursor: pointer;
+}
