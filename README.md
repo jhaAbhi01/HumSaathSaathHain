@@ -5,3 +5,4 @@ Contents in this repository
 - Landing page is HSSHHome.html
 - Other pages are linkes to each other
 
+Upload the hssh folder in the repository to xampp/mysql/data folder, or whichever is the folder equivalent to it
