@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet'>
+<style>
+body{
+	background-color:#ECF2F3; 
+}
+.faq{
+	float: center;
+	height: 80px;
+	width: 200px;
+	border-radius: 10px;
+	border: 2px solid #000000;
+	background-color: #52C2D7;
+	margin: 20px 50px 20px 560px;
+	text-align: center;
+}
+.logo{
+	display: inline;
+}
+.name{
+	margin: 0px 0px 10px 40px;
+}
+.meme{
+	float: center;
+	margin: 0 0 0 400px; 
+}
+.img1{
+	width: 550vw;
+	height: 500vw; 
+	background-image: url("home2.jpg");
+	background-size: contain;
+
+}
+.imgcenter{
+	height: 400px;
+	width: 600px;
+}
+.part1{
+	width: 100%;
+}
+.profile_but{
+	height: 80px;
+	width: 80px;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0Q_qrm-pQvOglWODzULI2OVJX5sPh0IRjEe3AcNYr2dJzOP-wzA");
+	background-size: cover;
+	border-radius: 10px;
+	border: 2px solid #000000;
+	margin: 20px 10px 20px 30px;
+	float: right;
+}
+.profile_but:hover {
+	cursor: pointer;
+}
+.moodimg{
+	float: center;
+	width:80%;
+}
+.moodimg:hover {
+	cursor: pointer;
+}
+.guruji{
+	align-content: center;
+	margin-bottom: 20px;
+}
+.fb{
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid white;
+	cursor: pointer;
+}
+.faq:hover{
+	cursor: pointer;
+
+}
+.contact{
+	float: right;
+}
+.video1{
+	display: inline-block;
+}
+.vid{
+	float: left;
+	display: inline;
+	margin: 10px 50px 10px 20px;
+	width:90%;
+	height:90%;
+}
+.helpline{
+	width: 100%;
+}
+.faqu{
+	width: 100%;
+}
+.help1{
+	border: 1px solid black;
+	border-radius: 20px;
+	background-color: #52C2D7;
+	text-align: center;
+	float:left;
+	margin-left:10%;
+}
+.help2{
+	border: 1px solid black;
+	border-radius: 20px;
+	background-color: #52C2D7;
+	text-align: center;
+	float:right;
+	margin-right:10%;
+}
+span{
+	font-size: 250%;
+	color: #ffffff;
+	font-weight: 200%;
+	font-family: Goergia;
+}
+.mid{
+	display: grid;
+	grid-template-columns: 50% 50%;	
+}
+    .forms{
+	    text-align: center;
+		border: 1.5px solid white;
+        padding: 10px;
+		padding-top: 20px;
+		margin: 0% auto 0% auto;
+		font-size: 20px;
+		color: #fff;
+		width: 30%;
+		position: relative;
+		background-color:#939EC4; 
+        font-family: "Vollkorn";
+   }
+	.pop{
+		overflow: auto;
+		display: none;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0,0,0,0.9);
+		padding-top: 50px;
+	}
+	.close {
+		position: absolute;
+		right: 20px;
+		top: 10px;
+		font-size: 35px;
+		color: #f1f1f1;
+	}
+	.close:hover{
+		color: #f7ba1f;
+		cursor: pointer;
+	}
+	
+    input[type=radio]{
+        cursor: pointer;
+    }
+	input[type=text], [type=password], [type=email]{
+   		display: inline-block;
+        margin: 8px 0;
+        border: 1px solid #0000ff;
+        width: 80%;
+		box-sizing: border-box;
+        padding: 10px 5px;
+        color: #0000ff;
+        
+    }
+    input[type=date]{
+     	display: inline-block;
+        margin: 8px 0;
+        border: 1px solid #0000ff;
+        width: 80%;
+		box-sizing: border-box;
+        padding: 3px 3px;
+        color: #0000ff;
+    }
+    input[type=checkbox]{
+		color: #000000;
+    }
+	
+	button.login{
+     	background-color: #93B6C4;
+        color: #ffffff;
+        margin: 8px 0;
+        border: 1px solid #0000ff;
+        padding: 8px;
+        width: 80%;
+        cursor: pointer;
+    }
+    button.login:hover, button.register:hover, button.greed:hover{
+        transition: 0.4s;
+        background-color: #F50070; 
+   }
+	button.register{
+        cursor: pointer;
+	}
+ 	.forgot{
+		font-size: 14px;
+		text-decoration: underline;
+	}
+	.forgot:hover{
+    	transition:0.4s;
+		cursor: pointer;
+    	color: #f7ba1f;
+	}
+  
+	a.register:hover{
+    	transition:0.4s;
+		cursor: pointer;
+    	color: #f7ba1f;
+	}
+	a.register{
+		text-decoration: underline;
+		color: #fff;
+	}
+	
+	.animate {
+		-webkit-animation: animatezoom 0.6s;
+		animation: animatezoom 0.6s
+	}
+	@-webkit-keyframes animatezoom {
+		from {-webkit-transform: scale(0)} 
+		to {-webkit-transform: scale(1)}
+	}	  
+	@keyframes animatezoom {
+		from {transform: scale(0)} 
+		to {transform: scale(1)}
+	}
+</style>
+</head>
+<body>
+<div class="part1">
+<img src="HSSH0.jpg" height="100vw" width="150vw" class="logo">
+<img src="HSSH1.jpg" height="80vw" width="400vw" class="name">
+<button onclick="document.getElementById('id01').style.display='block'" title="Login" class="profile_but"></button>
+</div>
+<hr>
+<div class="mid">
+<div class="video1">
+<iframe class="vid" src="https://www.youtube.com/embed/ga-MniJxQz8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="guruji">
+<h2>Click on the image below to view memes</h2>
+<img src="HSSH2.jpg" onclick="location.reload();location.href='HSSHMood.html'" class="moodimg" align="center">
+</div>
+</div>
+<hr>
+<div class="mid">
+<div class="faqu">
+<h2>Click on the image below to view Frequently Asked Questions (FAQs)</h2>
+<img src="HSSH3.jpg" style="width:50%" onclick="location.reload();location.href='HSSHFAQ.html'" class="moodimg" align="center">
+</div>
+<div class="helpline">
+<div>
+<p align="center" style="font-size: 150%; font-family: Georgia; font-weight: 150%;line-height: 40px"><b>WE ARE HERE TO HELP</b><br>Trained counsellors are available day and night<br>Reach out to us now</p>
+<button class="help1"><p style="font-size: 180%; font-family: Georgia; font-weight: 100%; color: white">Helpline</p><br><span>022 2754 6669</span></button>
+<button class="help2"><p style="font-size: 180%; font-family: Georgia; font-weight: 100%; color: white">Helpline(India)</p><br><span>1800 2662 345</span></button>
+</div>
+</div>
+</div>
+<div id="id01" class="pop">
+	<form action="Portal.php" method="POST">
+    <div class="forms animate">
+		<h2>Log In</h2>
+		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close form">&times;</span>
+		<label>Email:<br></label>       
+		<input type="text" name="U" required>
+        <label><br>Password:<br></label>
+        <input type="password" name="P" required>
+        <br><button class="login" type="submit" name="Log">Login</button>
+		<div><p>Don't have an account yet?<br><a title="Register here" onclick="document.getElementById('id02').style.display='block'" class="register" style="text-decoration: underline;">Sign Up here</a></p></div>
+	</div>
+	</form>	
+</div>
+<div id="id02" class="pop">
+	<form action="Portal.php" method="POST">
+	<div class="forms animate">
+		<h2>Sign Up</h2>
+		<span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close form">&times;</span>		
+	<input type="text" name="Name" placeholder="Full Name" required><br>
+	<input type="email" name="Email" placeholder="Email" required><br>
+	<input type="password" name="Pass" placeholder="Password" required><br>
+	<input type="password" name="RePass" placeholder="Re-Enter Password" required><br>
+	<input type="text" name="Mobile" placeholder="Mobile no." maxlength="10"><br>
+	<input type="radio" name="Choice" value="Patient">Need Help?
+	<input type="radio" name="Choice" value="Expert">Want to help?<br>
+			<br><button class="login" type="submit" name="Sign">Sign Up</button>
+	</div>
+	</form>
+</div>
+</body>
+</html>
